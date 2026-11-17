@@ -1,6 +1,6 @@
 name: PlatformIO Build
 
-on:
+on: [push, workflow_dispatch]
   push:
     branches: [ main ]
   pull_request:
